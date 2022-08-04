@@ -202,6 +202,8 @@ def advance_message_queue():
     voice_request.play()
 
 
+# Modified from a script to download tts mp3 files from TikTok API:
+# https://github.com/oscie57/tiktok-voice
 def create_tts_mp3(text, voice, filename):
     # Use TikTok API to request a TTS audio file
     url = f"https://api16-normal-useast5.us.tiktokv.com/media/api/text/speech/invoke/?" \
