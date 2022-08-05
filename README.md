@@ -14,7 +14,7 @@ The bot will read messages from the channel specified in the script. To find the
 open discord in `Developer Mode`, then right-click the channel and select `Copy ID`. 
 Paste this ID inside the `channel.txt` file.
 
-### 3. Run the `log-bot.py` script
+### 3. Run the `tts-bot.py` script
 Ensure that you have the packages at the top of the `tts-bot.py` installed (namely, `requests`, `PyNaCl`, and `discord.py`).
 Also make sure that you have ffmpeg installed and added to your PATH if you are using Windows.
 Using any python 3.10+ interpreter, run the `tts-bot.py` script.
